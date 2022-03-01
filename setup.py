@@ -1,9 +1,9 @@
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name='njrosati',
     version='0.0.3',
     author='Nick Rosati',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/l2osati/njrosati/issues"
     },
     license='MIT',
-    packages=['njrosati'],
+    packages=find_packages(),
     install_requires=['requests'],
 )
