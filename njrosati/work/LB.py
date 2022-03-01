@@ -1,2 +1,2 @@
 def test():
-  print(f"{__name__} successfully loaded.")
+  print(f"LB package successfully loaded.")
